@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "9",
 
   // Services
   services: [
@@ -79,9 +79,15 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Elfmanscoop", rating: 5, text: "We moved into our dream house five years ago but whilst the house was perfect, the garden was a real disappointment for me - an awkward L shape with various slopes. On Raine’s first visit, she was keen to understand our vision for the …  ", date: "2 years ago" },
+    { name: "Luke & Catherine Hutchinson", rating: 5, text: "We can’t recommend Raine enough, we are absolutely thrilled with her garden design and can’t wait to begin work. …  ", date: "10 months ago" },
+    { name: "Harry Osborne", rating: 5, text: "Time to politely tell all of the other garden designers you may have approached to stand down. …  ", date: "9 months ago" },
+    { name: "Stephanie Wagnert", rating: 5, text: "We have had the pleasure of working with Raine during the last 18 months or so, during the design and construction phases of our fabulous garden project, which has just been completed. …  ", date: "3 years ago" },
+    { name: "John Woodcock", rating: 5, text: "We sought a garden designer who would be able to meet quite specific needs in our brief, and who could create a unique garden for us. From the first meeting, Raine proved to be that individual, listening carefully to our requirements and …    Respo", date: "2 years ago" },
+    { name: "Stan Mayne", rating: 5, text: "So happy we chose Raine to guide us through the perils of designing a new garden from scratch. Raine took the time to get to know us and our style before discussing the practicalities, pitfalls and pleasures of designing a beautiful garden …  ", date: "4 years ago" },
+    { name: "Tracy McNeill", rating: 5, text: "Raine is very customer focused, creative and also willing to challenge your thinking! She designed a beautiful garden for us on a plot that was uncleared with multiple levels - so quite a challenge.  She took on board our needs as a growing …  ", date: "6 years ago" },
+    { name: "Debra Mitchell", rating: 5, text: "We are absolutely delighted with our beautifully designed garden. Raine has created a truly stunning area for us to relax and enjoy. The cedar structures,  plants and colours all add to the Mediterranean feel. …  ", date: "5 years ago" },
+    { name: "Will Bain", rating: 5, text: "Raine helped us with our garden project after completing the design work in 2023. The project involved the extensive redesign of our garden, with the incorporation of a swimming pool, outdoor kitchen / dining etc and full replanting. …  ", date: "2 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
